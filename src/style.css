@@ -2,17 +2,17 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
 
-@import './css/_variable.css';
-@import './css/_base.css';
-@import './css/_utils.css';
-@import './css/_btn.css';
+@import './css/variable.css';
+@import './css/base.css';
+@import './css/utils.css';
+@import './css/btn.css';
 
-@import './css/_navbar.css';
-@import './css/_hero.css';
-@import './css/_footer.css';
+@import './css/navbar.css';
+@import './css/hero.css';
+@import './css/footer.css';
 
-@import './css/_home.css';
-@import './css/_contacts.css';
+@import './css/home.css';
+@import './css/contacts.css';
 
 
 
