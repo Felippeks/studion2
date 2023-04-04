@@ -9,4 +9,22 @@ $(document).ready(() => {
                
     };
     $('.slider').slick(slickOptions);
+
+    $('.footer__form-button').on('click', () =>{
+       const email = $('#email').val();
+       email.send({
+        Host : "smtp.gmail.com",
+        Username : "email conta",
+        Password : "senha",
+        To : 'email conta',
+        From : email,
+        Subject : "Por favor me adicione na newsletter",
+        Body : `Olá, eu gostaria de ser adicionado na newsletter do site.
+        Meu email é $(email)
+        
+        Obrigado!`
+    }).then(
+      message => alert(message)
+    );
+    })
   });
