@@ -1,69 +1,40 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*Mobile*/
+
+/* Mobile */
 :root {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4.25vw;
-    color: var(--color-copy);
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.25vw;
+  color: var(--color-copy);
 }
 
-/*tablet*/
+/* Tablet */
 @media screen and (min-width: 720px) {
-    :root{
-        font-size: 2.25vw;
-    }
-    
+  :root {
+    font-size: 2.25vw;
+  }
 }
 
-
-/*Desktop*/
+/* Desktop */
 @media screen and (min-width: 1280px) {
-    :root{
-        font-size: 16px;
-    }
+  :root {
+    font-size: 16px;
+  }
 }
-
-
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-right: 0.625rem;
-}
-
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.logo-studion {
-    line-height: .4ch;
-    text-align: right;
-    font-size: 2.375rem;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.logo-studion__subtitle {
-    font-size: 0.875rem;
-    font-weight: 300;
-}
-.logo-studion a{
-    text-decoration: none;
-    color: #fff;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }
