@@ -1,28 +1,23 @@
 # Studion
 
-This is the first project of the Frontend Developer course for the Imagine School class of 2020.
+Primeiro projeto Frontend do curso de desenvolvimento de software da Imagine School, turma de 2023.
 
-## How to work with the repository / Como trabalhar com o repositório
+##  Como trabalhar com o repositório
 
-### Clone the project / Clone o projeto
-
-```
-git clone http://github.com/brucecantarim/studion.git
-```
-
-### Install the project dependencies / Instalar as dependências do projeto
+### Clone o projeto
 
 ```
-cd studion
+git clone http://github.com/felippeks/studion2.git
+```
+
+### Instalar as dependências do projeto
+
+```
 npm install
 ```
 
-### Start the project / Iniciar o projeto
+###  Iniciar o projeto
 
 ```
 npm start
 ```
-
-### Questions? / Perguntas
-
-Send me an email at [bruce@cantarim.com](mailto:bruce@cantarim.com)
